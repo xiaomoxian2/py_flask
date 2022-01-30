@@ -6,7 +6,7 @@ from logging.handlers import RotatingFileHandler
 
 app = Flask(__name__)
 app.jinja_env.line_statement_prefix = '#'
-app.secret_key = 'nowcoder'
+app.secret_key = 'nowcoder123'
 
 @app.route('/')
 @app.route('/index')
