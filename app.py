@@ -11,7 +11,7 @@ app.secret_key = 'nowcoder123'
 @app.route('/')
 @app.route('/index')
 def index():
-    return "789"
+    return "789------------------------"
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0")
